@@ -46,7 +46,7 @@ function createMap(earthquakes) {
   }).addTo(myMap);
 
 // Create a legend to display map information
-var legend = L.control({position: "bottomleft"});
+var legend = L.control({position: "bottomright"});
 
  // When the layer control is added, insert a div with the class of "legend"
  legend.onAdd = function() {
